@@ -14,13 +14,13 @@ Package.registerBuildPlugin({
 
 Package.onUse(function (api) {
   api.use('isobuild:compiler-plugin@1.0.0');
-  api.use('babel-compiler@7.1.1');
+  api.use('babel-compiler');
 
   // `ecmascript-ts` must provide the same runtime environment
   // that the 'ecmascript' package provides.
-  api.imply('modules@0.12.2');
-  api.imply('ecmascript-runtime@0.7.0');
-  api.imply('babel-runtime@1.2.4');
-  api.imply('promise@0.11.1');
-  api.imply('dynamic-import@0.4.2');
+  api.imply('modules');
+  api.imply('ecmascript-runtime');
+  api.imply('babel-runtime');
+  api.imply('promise');
+  api.imply('dynamic-import');
 });
