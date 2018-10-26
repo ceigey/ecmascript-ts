@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'lmachens:ecmascript-ts',
+  name: 'ceigey:ecmascript-ts',
   version: '1.0.1',
   summary: 'Compiler plugin that supports ES2015+ in all .ts and .tsx files',
   documentation: 'README.md',
